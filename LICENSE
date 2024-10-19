@@ -1,9 +1,9 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='aquacheck',  
+    name='EnviroChlor',  
     version='0.1',  
-    description='EnviroChlor',
+    description='EnviroChlor- Water Disinfection with Chlorine based on DO, Temperature, and NTU',
     author='Valdrin Beluli',  
     author_email='valdrinengineer@gmail.com',  
     packages=find_packages(),  
