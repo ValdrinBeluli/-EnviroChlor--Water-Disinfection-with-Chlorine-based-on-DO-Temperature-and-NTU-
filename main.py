@@ -39,7 +39,7 @@ class Sensor:
     def determine_klor_level_by_ntu_temp(self, ntu_inlet, ntu_outlet, temp_level):
         ntu_diff = ntu_outlet - ntu_inlet 
         klor_level = max(0, 5 + 0.2 * ntu_diff - 0.1 * temp_level)
-        return klor_level  # Kthe rezultat
+        return klor_level 
 
     def predict_next(self):
         return np.mean(self.values[-5:]) if len(self.values) >= 5 else self.values[-1]
