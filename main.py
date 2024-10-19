@@ -37,9 +37,7 @@ class Sensor:
         return max(0, 8 - 0.3 * temp_level)
 
     def determine_klor_level_by_ntu_temp(self, ntu_inlet, ntu_outlet, temp_level):
-        # Llogarit ndryshimin në NTU
-        ntu_diff = ntu_outlet - ntu_inlet  # Këtu kemi ndryshuar pozitat për ta pasur rritje pas përpunimit
-        # Llogarit nivelin e klorit në bazë të NTU dhe temperaturës
+        ntu_diff = ntu_outlet - ntu_inlet 
         klor_level = max(0, 5 + 0.2 * ntu_diff - 0.1 * temp_level)
         return klor_level  # Kthe rezultat
 
