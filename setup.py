@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 setup(
     name='DriniChlor', 
     author='Valdrin Beluli',  
-    version='0.0.2',
+    version='0.0.3',
     author_email='valdrinengineer@gmail.com',  
     description='An engineering tool for measurements and analyzes the necessary chlorine level for disinfecting water, depending on measured values for DO, temperature, and NTU.',  
     long_description=open('README.md').read(), 
