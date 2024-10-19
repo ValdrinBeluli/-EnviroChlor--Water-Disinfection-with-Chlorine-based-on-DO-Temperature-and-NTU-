@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='EnviroChlor- Water Disinfection with Chlorine based on DO, Temperature, and NTU', 
+    name='EnviroChlor', 
     author='Valdrin Beluli',  
     author_email='valdrinengineer@gmail.com',  
     description='An engineering tool for measurements and analyzes the necessary chlorine level for disinfecting water, depending on measured values for DO, temperature, and NTU.',  
