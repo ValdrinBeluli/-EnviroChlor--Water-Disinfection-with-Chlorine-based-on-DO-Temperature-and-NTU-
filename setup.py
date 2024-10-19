@@ -7,7 +7,7 @@ setup(
     description='An engineering tool for measurements and analyzes the necessary chlorine level for disinfecting water, depending on measured values for DO, temperature, and NTU.',  
     long_description=open('README.md').read(), 
     long_description_content_type='text/markdown',  
-    url='https://github.com/ValdrinBeluli/-EnviroChlor--Water-Disinfection-with-Chlorine-based-on-DO-Temperature-and-NTU-',  
+    url='https://github.com/ValdrinBeluli/EnviroChlor',  
     packages=find_packages(),  
     classifiers=[
         'Programming Language :: Python :: 3',  
