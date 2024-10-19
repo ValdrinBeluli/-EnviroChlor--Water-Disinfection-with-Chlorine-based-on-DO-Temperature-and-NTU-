@@ -1,23 +1,18 @@
-'''This code represents an engineering tool developed in Python using the Tkinter and Matplotlib libraries to create a graphical interface for monitoring 
-and analyzing chlorine, temperature, dissolved oxygen (DO), and turbidity (NTU) in water. The system simulates measurements and analyzes the necessary chlorine level 
-for disinfecting water, depending on measured values for DO, temperature, and NTU.
+
+
+'''This code represents an engineering tool developed in Python using the Tkinter and Matplotlib libraries to create a graphical interface for monitoring and analyzing chlorine, temperature, dissolved oxygen (DO), and turbidity (NTU) in water. The system simulates measurements and analyzes the necessary chlorine level for disinfecting water, depending on measured values for DO, temperature, and NTU.
 
 Main components of the tool:
 
-Class Sensor: Represents a sensor that reads randomly generated values for the main variables (e.g., chlorine, DO, temperature). This class contains methods
-for calculating the chlorine level based on:
+Class Sensor: Represents a sensor that reads randomly generated values for the main variables (e.g., chlorine, DO, temperature). This class contains methods for calculating the chlorine level based on:
 - DO level,
 - temperature,
 - and the difference in NTU between inlet and outlet.
-The main tool (EngineeringTool): Contains the graphical interface where the user can manually enter values for NTU and temperature. The use of graphs allows 
-for the visualization of the read data, along with predictions and differences between various chlorine levels.
+The main tool (EngineeringTool): Contains the graphical interface where the user can manually enter values for NTU and temperature. The use of graphs allows for the visualization of the read data, along with predictions and differences between various chlorine levels.
 
-Graphs and analyses: The tool creates graphs that show the relationships between chlorine and DO, temperature, as well as NTU, illustrating the differences and 
-averages of chlorine levels. Predictions of future chlorine levels are based on historical data collected by the sensor.
+Graphs and analyses: The tool creates graphs that show the relationships between chlorine and DO, temperature, as well as NTU, illustrating the differences and averages of chlorine levels. Predictions of future chlorine levels are based on historical data collected by the sensor.
 
-This tool can be used to simulate and analyze the effectiveness of water disinfection with chlorine, based on important parameters such as temperature and dissolved
-oxygen. Its functionality offers an experimental approach that can be useful for research laboratories or scientific studies related to water quality and disinfection.'''
-
+This tool can be used to simulate and analyze the effectiveness of water disinfection with chlorine, based on important parameters such as temperature and dissolved oxygen. Its functionality offers an experimental approach that can be useful for research laboratories or scientific studies related to water quality and disinfection.'''
 
 import tkinter as tk
 from tkinter import ttk
@@ -163,3 +158,4 @@ class EngineeringTool(tk.Tk):
 if __name__ == "__main__":
     app = EngineeringTool()
     app.mainloop()
+
